@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class StartWindowed : MonoBehaviour
 {
-    private void Awake()
+    void Awake()
     {
         Screen.fullScreen = false;
     }
