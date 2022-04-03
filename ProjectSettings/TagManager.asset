@@ -7,6 +7,10 @@ TagManager:
   - ManagerPersistablePrefabs
   - ManagerGameStateClean
   - ManagerFullscreen
+  - Earth
+  - Shuttle
+  - WallEarth
+  - WallRange
   layers:
   - Default
   - TransparentFX
