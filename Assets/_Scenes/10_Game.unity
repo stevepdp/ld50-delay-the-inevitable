@@ -518,7 +518,7 @@ GameObject:
   - component: {fileID: 956380717}
   - component: {fileID: 956380718}
   m_Layer: 0
-  m_Name: RightBeamer
+  m_Name: RightRail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -600,7 +600,7 @@ GameObject:
   - component: {fileID: 1488410704}
   - component: {fileID: 1488410705}
   m_Layer: 0
-  m_Name: LeftBeamer
+  m_Name: LeftRail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -802,6 +802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2798e2abc55c9cc45ba25f46d0eac986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletObj: {fileID: 1042667723056702508, guid: a60b41aa501ac34419717a328d0987c5, type: 3}
   earthObj: {fileID: 2048855373}
 --- !u!50 &1914210660
 Rigidbody2D:

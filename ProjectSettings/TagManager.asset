@@ -10,7 +10,7 @@ TagManager:
   - Earth
   - Shuttle
   - WallEarth
-  - WallRange
+  - Bullet
   layers:
   - Default
   - TransparentFX
