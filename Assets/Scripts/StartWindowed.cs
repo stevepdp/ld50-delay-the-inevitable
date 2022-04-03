@@ -6,6 +6,6 @@ public class StartWindowed : MonoBehaviour
 {
     void Awake()
     {
-        Screen.fullScreen = false;
+        //Screen.fullScreen = false;
     }
 }

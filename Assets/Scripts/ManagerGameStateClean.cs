@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ManagerGameStateClean : MonoBehaviour
 {
-    void Awake()
+    void Start()
     {
 #if UNITY_EDITOR
         Debug.unityLogger.logEnabled = true;
@@ -29,7 +29,7 @@ public class ManagerGameStateClean : MonoBehaviour
         }*/
 
         // Switch to start menu scene
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, LoadSceneMode.Single);
         Debug.Log("Leaving init...");
     }
 }

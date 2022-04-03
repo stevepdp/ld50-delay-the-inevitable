@@ -11,11 +11,11 @@ public class ManagerFullscreen : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.LeftAlt) && Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             if (Screen.fullScreen)
             {
-                Screen.SetResolution(640, 460, false);
+                Screen.SetResolution(640, 360, false);
             }
             else
             {

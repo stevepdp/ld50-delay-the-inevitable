@@ -11,4 +11,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/01_StartMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/_Scenes/02_HowToPlay.unity
+    guid: 903bd4f7b7495c046b31229d06f5d55a
+  - enabled: 1
+    path: Assets/_Scenes/03_OpenSource.unity
+    guid: 08f4cb9fa7c160441a30b885c8a06a5e
+  - enabled: 1
+    path: Assets/_Scenes/10_Game.unity
+    guid: d3899d0c03421914d97d973bce100992
+  - enabled: 1
+    path: Assets/_Scenes/98_EndingBad.unity
+    guid: 2335966f73e49ed479957f02bfafd8fd
+  - enabled: 1
+    path: Assets/_Scenes/99_EndingGood.unity
+    guid: 3273980559c826b4cb9f05c56d6aab97
   m_configObjects: {}
