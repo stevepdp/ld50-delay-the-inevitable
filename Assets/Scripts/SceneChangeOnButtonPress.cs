@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneChangeOnButtonPress : MonoBehaviour
 {
-    public void LoadScene(string sceneName)
+    public void LoadScene(string s_SceneName)
     {
-        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+        SceneManager.LoadScene(s_SceneName, LoadSceneMode.Single);
     }
 }

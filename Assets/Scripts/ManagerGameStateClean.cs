@@ -14,21 +14,15 @@ public class ManagerGameStateClean : MonoBehaviour
 #endif
         Debug.Log("Init game...");
 
-        GameObject[] Objs = GameObject.FindGameObjectsWithTag("ManagerFullscreen");
-        if (Objs.Length > 0)
+        // Find an old persisting instance and destroy it so that we can start anew
+        GameObject[] o_GameObjects = GameObject.FindGameObjectsWithTag("ManagerFullscreen");
+        if (o_GameObjects.Length > 0)
         {
-            Destroy(Objs[0]);
+            Destroy(o_GameObjects[0]);
             Debug.Log("Destroyed old fullscreen manager");
         }
 
-        //Objs = GameObject.FindGameObjectsWithTag("");
-        /*if (Objs.Length > 0)
-        {
-            Destroy(Objs[0]);
-            Debug.Log("");
-        }*/
-
-        // Switch to start menu scene
+        // With the old game cleared up...proceed to the start menu
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, LoadSceneMode.Single);
         Debug.Log("Leaving init...");
     }

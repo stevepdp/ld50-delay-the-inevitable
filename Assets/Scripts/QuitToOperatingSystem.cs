@@ -5,21 +5,22 @@ using UnityEngine.UI;
 
 public class QuitToOperatingSystem : MonoBehaviour
 {
-    public Transform buttonText;
+    public Transform t_ButtonText;
 
     public void Awake()
     {
 #if UNITY_EDITOR || UNITY_WEBGL
-        gameObject.SetActive(false);
+    // hides this button in the Unity editor and web exports
+    gameObject.SetActive(false);
 #endif
 #if UNITY_STANDALONE_WIN
-    buttonText.GetComponent<Text>().text = "Exit to Windows";
+    t_ButtonText.GetComponent<Text>().text = "Exit to Windows";
 #endif
 #if UNITY_STANDALONE_OSX
-    buttonText.GetComponent<Text>().text = "Exit to macOS";
+    t_ButtonText.GetComponent<Text>().text = "Exit to macOS";
 #endif
 #if UNITY_STANDALONE_LINUX
-    buttonText.GetComponent<Text>().text = "Exit to Linux desktop";
+    t_ButtonText.GetComponent<Text>().text = "Exit to Linux desktop";
 #endif
     }
 

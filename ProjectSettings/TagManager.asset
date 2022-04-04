@@ -11,6 +11,7 @@ TagManager:
   - Shuttle
   - WallEarth
   - Bullet
+  - Mars
   layers:
   - Default
   - TransparentFX
