@@ -14,7 +14,7 @@ public class ManagerSFX : MonoBehaviour
     {
         a_Hit = Resources.Load<AudioClip>("SFX/hit4");
         a_Powerup = Resources.Load<AudioClip>("SFX/powerup");
-        a_Shoot = Resources.Load<AudioClip>("SFX/shoot3");///3, 5
+        a_Shoot = Resources.Load<AudioClip>("SFX/shoot3");
         a_AudioSource = GetComponent<AudioSource>();
     }
 
