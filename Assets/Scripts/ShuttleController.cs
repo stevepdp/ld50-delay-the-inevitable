@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class ShuttleController : MonoBehaviour
 {
-    private float f_ShuttleSpeed = 0.25f;
+    private float f_ShuttleSpeed;
+
+    private void Start()
+    {
+        f_ShuttleSpeed = Random.Range(0.25f, 1f);
+    }
 
     void Update()
     {

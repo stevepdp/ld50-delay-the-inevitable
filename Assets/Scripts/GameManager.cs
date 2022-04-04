@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public Text t_YearsTrying;
 
     private int i_YearsTrying = 1960;
-    private int i_YearsThreshold = 2100;
+    private int i_YearsThreshold = 2050;
 
     public void GameOver(string s_SceneToLoad)
     {
