@@ -511,9 +511,9 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "This work utilises assets from the open source commons :-)\n\nMaterials:\n*
     \"Space Skybox\" by \"kurtk84\r\" is marked: CC0 1.0.\n\nFonts:\n\r* \"Kenney
-    Thick\" & \"Kenney Pixel\" are marked CC0 1.0.\n\n---\n\nOriginal game (C) 2022
-    Stephen Pearce. \n\nSource code is published and share under the MIT license
-    terms.\nClone: git@github.com:stevepdp/ld50-delay-the-inevitable"
+    Future Square\" & \"KenVector Future\" are marked CC0 1.0.\n\n---\n\nOriginal
+    game (C) 2022 Stephen Pearce. \n\nSource code is published and share under the
+    MIT license terms.\nClone: git@github.com:stevepdp/ld50-delay-the-inevitable"
 --- !u!222 &1703302583
 CanvasRenderer:
   m_ObjectHideFlags: 0
