@@ -585,6 +585,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HabitablePlanet (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7431249000712755440, guid: 85d7cca45841fd6428fc14ae6f9bcd6c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7431249000712755442, guid: 85d7cca45841fd6428fc14ae6f9bcd6c, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1007,6 +1011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HabitablePlanet (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7431249000712755440, guid: 85d7cca45841fd6428fc14ae6f9bcd6c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7431249000712755442, guid: 85d7cca45841fd6428fc14ae6f9bcd6c, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1162,6 +1170,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HabitablePlanet (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7431249000712755440, guid: 85d7cca45841fd6428fc14ae6f9bcd6c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7431249000712755442, guid: 85d7cca45841fd6428fc14ae6f9bcd6c, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1234,6 +1246,10 @@ PrefabInstance:
     - target: {fileID: 7431249000712755440, guid: 85d7cca45841fd6428fc14ae6f9bcd6c, type: 3}
       propertyPath: m_Name
       value: HabitablePlanet (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7431249000712755440, guid: 85d7cca45841fd6428fc14ae6f9bcd6c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7431249000712755442, guid: 85d7cca45841fd6428fc14ae6f9bcd6c, type: 3}
       propertyPath: m_RootOrder
