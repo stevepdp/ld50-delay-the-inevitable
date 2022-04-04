@@ -24,6 +24,8 @@ public class ShuttleController : MonoBehaviour
         {
             if (b_CanHit)
             {
+                ManagerSFX.PlaySound("hit");
+
                 // destroy the projectile
                 Destroy(other.gameObject);
 

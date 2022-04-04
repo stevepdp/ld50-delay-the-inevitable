@@ -38,6 +38,9 @@ public class PlayerController : MonoBehaviour
         // get player's keyboard/controller inputs
         if (Input.GetButtonDown("Fire1") || Input.GetKeyDown(KeyCode.Space))
         {
+            // play fire sfx
+            ManagerSFX.PlaySound("shoot");
+
             // create bullet and store a reference to it for later work...
             Rigidbody2D projectileRigidBody = Instantiate(o_Bullet, transform.position, transform.rotation).GetComponent<Rigidbody2D>();
 
