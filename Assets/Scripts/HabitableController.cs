@@ -23,6 +23,7 @@ public class HabitableController : MonoBehaviour
         {
             // Create shuttle instance
             GameObject o_ShuttleInstance = Instantiate(o_Shuttle);
+            o_GameManager.GetComponent<GameManager>().AddYears(1);
 
             // Face the calling planet
             Vector3 targetOffset = transform.position - o_ShuttleInstance.transform.position;
