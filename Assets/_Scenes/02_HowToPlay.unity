@@ -465,7 +465,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352380946}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 4.039, y: 0.631, z: 0}
+  m_LocalPosition: {x: -8.127, y: 0.655, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 59932121}
@@ -761,11 +761,11 @@ MonoBehaviour:
     problems remaining on Earth however...It's perhaps within their interests \nto
     delay further exploration...\"\n\nAware that their attempts at settling off-world
     may be premature...an \nobserving civilisation from a neighboring galaxy deploys
-    a shuttle deflecting \ndevice close to the planet...\n\n* Use your <color=\"cyan\">ARROW
-    KEYS</color> to navigate the shuttle Deflector:\n\n* Use your <color=\"cyan\">SPACE
-    KEY</color> to deflect shuttles          and thus <color=\"yellow\">delay the
-    inevitable</color>.\n\n* Use your <color=\"cyan\">F KEY</color> to enter and
-    exit fullscreen."
+    a shuttle deflecting \ndevice close to the planet...\n\n            Use your
+    <color=\"cyan\">ARROW KEYS</color> to navigate the shuttle Deflector.\n\n           
+    Use your <color=\"cyan\">SPACE KEY</color> to deflect shuttles and thus <color=\"yellow\">delay
+    the inevitable</color>.\n\n            Use your <color=\"cyan\">F KEY</color>
+    to enter and exit fullscreen."
 --- !u!222 &1703302583
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1058,7 +1058,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3670186323661347107}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -19.93, y: 14.8, z: 0}
   m_LocalScale: {x: 0.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 3670186324114974287}
@@ -1172,7 +1172,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3670186325065982008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.52, z: 0}
+  m_LocalPosition: {x: -19.93, y: 14.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3670186324114974287}
