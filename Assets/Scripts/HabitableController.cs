@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HabitableController : MonoBehaviour
 {
+    public GameObject o_GameManager;
     public GameObject o_Shuttle;
     
     private bool b_KeepSpawning = true;
@@ -29,6 +30,15 @@ public class HabitableController : MonoBehaviour
 
             // Wait a random amount of time before respawning
             yield return new WaitForSeconds(Random.Range(f_SpawnTimeLowerRange, f_SpawnTimeUpperRange));
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // If a shuttle reaches us, call "bad" ending.
+        if (other.gameObject.CompareTag("Shuttle"))
+        {
+            o_GameManager.GetComponent<GameManager>().GameOver("98_EndingBad");
         }
     }
 }
