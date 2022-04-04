@@ -509,10 +509,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "This work utilises assets from the open source commons  :-)\n\n* \"Space
+  m_Text: "This work utilises assets from the open source commons :-)\n\n* \"Space
     Skybox\" by \"kurtk84\r\" is marked: CC0 1.0.\n\r* \"Kenney Thick\" & \"Kenney
-    Pixel\" are marked CC0 1.0.\n\nOriginal game (C) 2022 Stephen Pearce is and made
-    available under MIT terms.\n\nClone: git@github.com:stevepdp/ld50-delay-the-inevitable"
+    Pixel\" are marked CC0 1.0.\n\nOriginal game (C) 2022 Stephen Pearce and is shared
+    under MIT license terms.\n\ngit@github.com:stevepdp/ld50-delay-the-inevitable"
 --- !u!222 &1703302583
 CanvasRenderer:
   m_ObjectHideFlags: 0
