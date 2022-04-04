@@ -8,7 +8,7 @@ public class ShuttleController : MonoBehaviour
 
     private void Start()
     {
-        f_ShuttleSpeed = Random.Range(0.25f, 1f);
+        f_ShuttleSpeed = Random.Range(0.25f, 0.75f);
     }
 
     void Update()
