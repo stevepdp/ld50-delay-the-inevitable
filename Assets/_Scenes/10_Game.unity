@@ -560,7 +560,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Year: 1960'
+  m_Text: 'Year: ____'
 --- !u!222 &491687931
 CanvasRenderer:
   m_ObjectHideFlags: 0
